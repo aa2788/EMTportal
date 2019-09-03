@@ -1,0 +1,40 @@
+Package: MOintEMT
+Title: Integrative Multi-Omics EMT
+Version: 1.1.9
+Authors@R: c(person(given="Anthony", family="Federico", email="anfed@bu.edu", 
+             role=c("aut","cre")),
+             person(given="Indranil", family="Paul", email="indranil@bu.edu", 
+             role=c("aut")))
+             person(given="Andrew", family="Emili", email="aemili@bu.edu",
+             role=c("aut")))
+             person(given="Stefano", family="Monti", email="smonti@bu.edu", 
+             role=c("aut")))
+
+Description: An R-Shiny portal for hosting the EMT datasets and analysis
+Depends: R (>= 3.6.0)
+License: GPL-3 + file LICENSE
+URL: https://github.com/aa2788/EMTportal
+Encoding: UTF-8
+RoxygenNote: 6.1.1
+LazyData: true
+Imports:
+    ggplot2,
+    ggforce,
+    DT,
+    R6,
+    magrittr,
+    dplyr,
+    purrr,
+    stats,
+    scales,
+    rlang,
+    kableExtra,
+    rmarkdown
+Suggests: 
+    devtools,
+    testthat,
+    knitr,
+    httr
+biocViews: EMT, cancer
+VignetteBuilder: knitr
+BugReports: https://github.com/aa2788/EMTportal
