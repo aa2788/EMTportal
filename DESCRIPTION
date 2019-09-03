@@ -1,7 +1,7 @@
-Package: MOintEMT
+Package: EMTportal
 Title: Integrative Multi-Omics EMT
-Version: 1.1.9
-Authors@R: c(person(given="Anthony", family="Federico", email="anfed@bu.edu", 
+Version: 0.0.1
+Authors@R: c(person(given="Ali", family="Amin-Mansour", email="aliamin@bu.edu", 
              role=c("aut","cre")),
              person(given="Indranil", family="Paul", email="indranil@bu.edu", 
              role=c("aut")))
@@ -35,6 +35,6 @@ Suggests:
     testthat,
     knitr,
     httr
-biocViews: EMT, cancer
+biocViews: EMT, cancer, Integrative analysis
 VignetteBuilder: knitr
 BugReports: https://github.com/aa2788/EMTportal
